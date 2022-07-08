@@ -1,0 +1,43 @@
+#普通数据
+name: zhangbaozhu
+age: 12
+
+#对象数据
+person1:
+  name: zhangsan
+  age: 21
+  addr: beijing
+
+person2: {name: lisi,age: 32,addr: shanghai}
+
+
+#集合数据
+city:
+  - beijing
+  - shanxi
+  - sichuan
+  - shanghai
+
+
+#集合数据,包含对象
+student:
+  - name: tom
+    age: 18
+    addr: beijing
+  - name: jack
+    age: 20
+    addr: sichuan
+
+
+
+#Map配置
+map:
+  key1: value1
+  key2: value2
+
+
+
+server:
+  port: 8888
+  servlet:
+    context-path: /demo
